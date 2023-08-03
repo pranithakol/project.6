@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="full.css">
+    <marquee><h2><b>Full form registration</b></h2></marquee>
+</head>
+<body>
+    <form>
+        <label for="firstname">First name: </label>
+        <input type="text" name="firstname"  required>
+        <br>
+        <label for="lastname">Last name: </label>
+        <input type="text" name="lastname"  required>
+        <br>
+        <label for="email">email: </label>
+        <input type="email" name="email">
+        <br>
+        <label for="password">password: </label>
+        <input type="password" name="password"  required>
+        <br>
+        <br>
+        <input type="submit" value="Login!">
+        <label for="sex">gender:</label>
+        <input type="radio" name="sex" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="sex" id="female" value="female">
+        <label for="female">Female</label> <br><br>
+        <label for="country">Country: </label>
+        <select name="country" id="country">
+            <option>Select an option</option>
+            <option value="India">India</option>
+            <option value="uk">uk</option>
+            <option value="australia">europe</option>
+        </select><br><br>
+        <label for="known language">languages: </label>
+        <input type="checkbox" id=" subject2" name=" subject2" value="Telugu">
+        <label for=" subject2">Telugu</label><br>
+        <input type="checkbox" id=" subject3" name=" subject3" value=" English ">
+        <label for=" subject3">English</label><br><br>
+        Address
+        <br>
+        <textarea cols="30" rows="3" value="address"></textarea>
+        <label for="newsletter">join</label>
+        <input type="checkbox" name="newsletter" id="newsletter"><br>
+        <br>
+        <input type="submit" value="apply">
+    </form>
+</body>
+</html>
